@@ -9,11 +9,14 @@ How to run this application
 
 http://localhost/harlem/
 
-3.) Download the application from my account submission form in challengepost.com and paste all the script 
+3.) Very important: Configure the apache server to allow URL rewrite rules by copying and pasting of
+.htaccess files into "harlem" directory you created
+
+4.) Download the application from my account submission form in challengepost.com and paste all the script 
 in the folder "harlem" that you created.
 
 
-4.) To be able to manage Email Messaging System and to be able to send email notifications to all silicon harlem members when post/news hacthons were posted on the site
+5.) To be able to manage Email Messaging System and to be able to send email notifications to all silicon harlem members when post/news hacthons were posted on the site
 
 a.) Edit files "update.php" as per this line of code ($from = "email@yoursite.com";) to your working site email
 
@@ -33,7 +36,7 @@ as per requirements above. Again the files has to be hosted on a live server wit
 
 
 
-5.) To be able to manage and Send SMS messages to Silicon Harlem members. the 2 files below takes care of it.
+6.) To be able to manage and Send SMS messages to Silicon Harlem members. the 2 files below takes care of it.
 
 a.) school_sms.php
 
@@ -49,13 +52,13 @@ will be provided for testing purposes.
  
 
 
-6.) download database file here and create database name: fb_wall1
+7.) download database file here and create database name: fb_wall1
 
-7.) copy all the database table to create table
+8.) copy all the database table to create table
 
-8.) call up the browser and run http://localhost/harlem/index.php
+9.) call up the browser and run http://localhost/harlem/index.php
 
-9.) you are done.
+10.) you are done.
 
 
 
