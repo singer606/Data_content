@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ profile_ewugoat508.php?username=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ profile_ewugoat508.php?username=$1
+
+
+RewriteRule ^profile_access1/([a-zA-Z0-9_-]+)$ profile_access1/profile_access1.php?username=$1
+RewriteRule ^profile_access1/([a-zA-Z0-9_-]+)/$ profile_access1/profile_access1.php?username=$1
+
+
+
+
+
+
+RewriteRule ^company/([a-zA-Z0-9_-]+)$ company/company.php?tit=$1
+RewriteRule ^company/([a-zA-Z0-9_-]+)/$ company/company.php?tit=$1
+
+
+
+RewriteRule ^company_access/([a-zA-Z0-9_-]+)$ company_access/company_access.php?tit=$1
+RewriteRule ^company_access/([a-zA-Z0-9_-]+)/$ company_access/company_access.php?tit=$1
