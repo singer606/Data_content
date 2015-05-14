@@ -4,6 +4,7 @@
 How to run this application
 
 1.)Ensure that you have the latest version of xampp installed( for php and mysql)
+
 2.) create a directory called "harlem" and point it to http://localhost hence you will have
 
 http://localhost/harlem/
